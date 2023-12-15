@@ -1,25 +1,11 @@
-package Examples;
+package Examples.classes;
 
-public class Classes {    
-
-    public static void main(String[] args) {
-        Animal cat = new Animal();
-        System.out.println(cat.getName());
-        System.out.println(cat.getAge());
-
-
-        Animal dog = new Animal("Dog", 7);
-        System.out.println(dog.getName());
-        System.out.println(dog.getAge());
-    }
-}
-
-class Animal {
+public abstract class Animal {
     private String name;
     private int age;
 
     public Animal() {
-        this.name = "Default";
+        this.name = "Cat";
         this.age = 10;
     }
 

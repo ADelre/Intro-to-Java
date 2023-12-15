@@ -1,4 +1,4 @@
-package Examples;
+package Examples.loops;
 
 import java.util.Arrays;
 
