@@ -1,11 +1,6 @@
 // Your First Program
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.Scanner;
 
 public class HelloWorld {
     public static void main(String[] args) {
@@ -28,13 +23,11 @@ public class HelloWorld {
         Short testShort2 = null;
         Byte testByte2 = null;
 
-        String[] testStringArray = new String[10];
-        List<String> testStringList = new ArrayList<>();
-        Map<String, String> testStringMap = new HashMap<>();
-        Set<String> testStringSet = new HashSet<>();
-
-
 
         System.out.println("Hello, World!");
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println(scanner.nextLine());
     }
 }
