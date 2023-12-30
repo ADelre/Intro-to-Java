@@ -1,4 +1,4 @@
-# FTC
+# Intro-to-Java
 
 This repository is to help students learn the basics of the Java programming language.
 
