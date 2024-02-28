@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+import Examples.DnD.DndCharacter;
+import Examples.DnD.Races.Warforged;
+import Examples.DnD.enums.DndDice;
+
 public class HelloWorld {
     public static void main(String[] args) {
         String testString = "testString";
@@ -26,8 +30,17 @@ public class HelloWorld {
 
         System.out.println("Hello, World!");
 
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
-        System.out.println(scanner.nextLine());
+        // System.out.println(scanner.nextLine());
+
+
+        DndCharacter player = new DndCharacter("player", new Warforged(), 8, DndDice.d8);
+
+        System.out.println(player.getStrengthModifier());
+
+        DndDice dice = DndDice.d10;
+
+
     }
 }
